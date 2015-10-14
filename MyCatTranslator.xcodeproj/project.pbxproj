@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B119B791B3A98F90041DE97 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B119B781B3A98F90041DE97 /* RecordedAudio.swift */; };
 		9B9098411B25F9ED00C70BA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9098401B25F9ED00C70BA6 /* AppDelegate.swift */; };
-		9B9098431B25F9ED00C70BA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9098421B25F9ED00C70BA6 /* ViewController.swift */; };
+		9B9098431B25F9ED00C70BA6 /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9098421B25F9ED00C70BA6 /* RecordSoundViewController.swift */; };
 		9B9098461B25F9ED00C70BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9098441B25F9ED00C70BA6 /* Main.storyboard */; };
 		9B9098481B25F9ED00C70BA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9098471B25F9ED00C70BA6 /* Images.xcassets */; };
 		9B90984B1B25F9ED00C70BA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9098491B25F9ED00C70BA6 /* LaunchScreen.xib */; };
 		9B9098571B25F9EE00C70BA6 /* MyCatTranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9098561B25F9EE00C70BA6 /* MyCatTranslatorTests.swift */; };
+		9B9098611B2624A200C70BA6 /* stopBtm.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9098601B2624A200C70BA6 /* stopBtm.png */; };
+		9BC5C82D1B3060BC005E43B1 /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5C82C1B3060BC005E43B1 /* PlaySoundViewController.swift */; };
+		9BC5C82F1B306632005E43B1 /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC5C82E1B306632005E43B1 /* slow.png */; };
+		9BC5C8311B30665A005E43B1 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BC5C8301B30665A005E43B1 /* movie_quote.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B119B781B3A98F90041DE97 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		9B90983B1B25F9ED00C70BA6 /* MyCatTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCatTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B90983F1B25F9ED00C70BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B9098401B25F9ED00C70BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B9098421B25F9ED00C70BA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B9098421B25F9ED00C70BA6 /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
 		9B9098451B25F9ED00C70BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B9098471B25F9ED00C70BA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9B90984A1B25F9ED00C70BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9B9098501B25F9ED00C70BA6 /* MyCatTranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCatTranslatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9098551B25F9EE00C70BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B9098561B25F9EE00C70BA6 /* MyCatTranslatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCatTranslatorTests.swift; sourceTree = "<group>"; };
+		9B9098601B2624A200C70BA6 /* stopBtm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopBtm.png; sourceTree = "<group>"; };
+		9BC5C82C1B3060BC005E43B1 /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
+		9BC5C82E1B306632005E43B1 /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
+		9BC5C8301B30665A005E43B1 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +88,11 @@
 			isa = PBXGroup;
 			children = (
 				9B9098401B25F9ED00C70BA6 /* AppDelegate.swift */,
-				9B9098421B25F9ED00C70BA6 /* ViewController.swift */,
+				9B9098421B25F9ED00C70BA6 /* RecordSoundViewController.swift */,
+				9B119B781B3A98F90041DE97 /* RecordedAudio.swift */,
 				9B9098441B25F9ED00C70BA6 /* Main.storyboard */,
 				9B9098471B25F9ED00C70BA6 /* Images.xcassets */,
+				9BC5C82C1B3060BC005E43B1 /* PlaySoundViewController.swift */,
 				9B9098491B25F9ED00C70BA6 /* LaunchScreen.xib */,
 				9B90983E1B25F9ED00C70BA6 /* Supporting Files */,
 			);
@@ -90,6 +102,9 @@
 		9B90983E1B25F9ED00C70BA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BC5C8301B30665A005E43B1 /* movie_quote.mp3 */,
+				9BC5C82E1B306632005E43B1 /* slow.png */,
+				9B9098601B2624A200C70BA6 /* stopBtm.png */,
 				9B90983F1B25F9ED00C70BA6 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +207,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC5C8311B30665A005E43B1 /* movie_quote.mp3 in Resources */,
 				9B9098461B25F9ED00C70BA6 /* Main.storyboard in Resources */,
+				9BC5C82F1B306632005E43B1 /* slow.png in Resources */,
 				9B90984B1B25F9ED00C70BA6 /* LaunchScreen.xib in Resources */,
 				9B9098481B25F9ED00C70BA6 /* Images.xcassets in Resources */,
+				9B9098611B2624A200C70BA6 /* stopBtm.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9098431B25F9ED00C70BA6 /* ViewController.swift in Sources */,
+				9B9098431B25F9ED00C70BA6 /* RecordSoundViewController.swift in Sources */,
+				9B119B791B3A98F90041DE97 /* RecordedAudio.swift in Sources */,
+				9BC5C82D1B3060BC005E43B1 /* PlaySoundViewController.swift in Sources */,
 				9B9098411B25F9ED00C70BA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyCatTranslator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyCatTranslator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +431,7 @@
 				9B90985C1B25F9EE00C70BA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B90985D1B25F9EE00C70BA6 /* Build configuration list for PBXNativeTarget "MyCatTranslatorTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +440,7 @@
 				9B90985F1B25F9EE00C70BA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
